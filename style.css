@@ -1,0 +1,178 @@
+@charset "UTF-8";
+@import "bower.css";
+
+/*
+ * Reset
+ */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+
+/*
+ * Scaffolding and type
+ */
+
+html {
+  font-size: 16px;
+}
+@media (min-width: 48em) {
+  html {
+    font-size: 20px;
+  }
+}
+
+body {
+  font: 1rem/1.5 "Open Sans";
+  color: #5a5a5a;
+  background-color: #7FDBFF;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-top: 3em;
+}
+
+h3 {
+  font-size: 1.4em;
+  margin-top: 2em;
+}
+
+a {
+  color: ;
+}
+
+/* wrap
+================================================== */
+
+.wrap {
+  padding: 10px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Hero
+================================================== */
+
+/*header {
+  background: #34495e;
+  border-top: 3px solid #2b3c4e;
+  border-bottom: 3px solid #2b3c4e;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}*/
+
+header {
+  background: #dddddd;
+  line-height: 1.2;
+  color: #34495e;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 1rem 0;
+  border-top: 3px solid #34495e;
+  border-bottom: 3px solid #34495e;
+}
+
+header .wrap {
+  position: relative;
+}
+
+header .brand {
+  text-align: center;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 4.3rem;
+  margin: 0;
+  line-height: 5rem;
+  color: #8e44ad;
+}
+
+header h1,
+header h3 {
+  letter-spacing: -0.04em;
+}
+
+header .logo {
+  display: block;
+  margin: 0 auto;
+  width: 7rem;
+}
+
+header h3 {
+  margin: 0 0  1.2rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+header .tagline {
+  font-size: 1.8rem;
+}
+
+/* Media Queries
+================================================== */
+
+/* tablet-ish */
+@media only screen and (min-width: 29rem) {
+
+  header {
+    padding: 1.5rem 0;
+  }
+
+  header .wrap {
+    padding-left: 10rem;
+    width: 27.5rem;
+  }
+
+  header .logo {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10rem;
+  }
+
+  header .brand,
+  header h3 {
+    text-align: left;
+  }
+}
+
+/* desktop-ish*/
+@media only screen and (min-width: 920px) {
+
+  header {
+    padding: 2rem 0 3rem;
+  }
+
+  header .wrap {
+    padding-left: 15rem;
+    width: auto;
+  }
+
+  header .logo {
+    left: 0;
+    top: 0px;
+    width: 15rem;
+  }
+
+  header h1 {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  header h3 {
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+  }
+
+  header .tagline {
+    margin-top: .5rem;
+    font-size: 2.7rem;
+    line-height: 1;
+  }
+
+  h1,
+  h2,
+  h3 {
+    position: relative;
+  }
+
+}
