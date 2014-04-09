@@ -166,6 +166,12 @@ header .tagline {
   line-height: 1;
 }
 
+@media (max-width: 320px) {
+  #content h2 a {
+    line-height: .8;
+  }
+}
+
 #content h2 a:hover {
   background-color: #08c;
   color: #ddd;
