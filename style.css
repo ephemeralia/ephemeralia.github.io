@@ -152,7 +152,7 @@ header .tagline {
 }
 
 #content article {
-  padding: .6rem 0 1rem 0;
+  padding: 1rem 0;
   border-bottom: 1px dotted rgba(0,0,0,.5);
   color: #333;
 }
@@ -160,9 +160,10 @@ header .tagline {
 #content h2 a {
   font-size: 1.7rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   text-decoration: none;
   color: #16a085;
+  line-height: 1;
 }
 
 #content h2 a:hover {
