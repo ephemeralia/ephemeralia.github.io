@@ -140,6 +140,7 @@ header .tagline {
 
 #content ol {
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 #content li {
@@ -155,6 +156,10 @@ header .tagline {
   padding: 1rem 0;
   border-bottom: 1px dotted rgba(0,0,0,.5);
   color: #333;
+}
+
+#content ol li:last-child article {
+  border-bottom: none;
 }
 
 #content h2 a {
