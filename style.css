@@ -218,7 +218,35 @@ blockquote {
  * ...and CSS-Tricks page on blockquote styles:
  * http://www.css-tricks.com/examples/Blockquotes/
  */
-  
+
+#content ol.orderedList {
+  list-style-type: decimal;
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+
+#content ol.orderedList li {
+  margin-top: .5rem;
+}
+
+#content ol.orderedList li:last-child {
+  margin-bottom: 0;
+}
+
+#content ul.unorderedList {
+  list-style-type: decimal;
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+
+#content ul.unorderedList li {
+  margin-top: .5rem;
+}
+
+#content ul.ulorderedList li:last-child {
+  margin-bottom: 0;
+}
+
 /* Grid
 ================================================== */
 
