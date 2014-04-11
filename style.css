@@ -178,14 +178,43 @@ header .tagline {
 
 blockquote {
   margin: 1rem 0 1rem 1.5rem;
-  padding-left: .5rem;
-  border-left: .5rem solid #d35400;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
   line-height: 1.3;
   font-style: italic;
+  font-weight: 300;
+  font-size: .9rem;
   max-width: 40rem;
   color: #2c3e50;
+  background-image: url(img/quote.svg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: auto 3rem;
 }
+/**************************************************************************
+ *  Blockquote svg icon, "Source", via Mun May Tee from The Noun Project  *
+ **************************************************************************/
 
+/* This was the style I previously used to have a gradient of diagonal lines in the blockquote bckground. I ended up thinking
+ * it was too busy, so I removed it. But I'm preserving the style below for future reference.
+
+  background-image: url(img/quote.svg), repeating-linear-gradient(-45deg, rgba(112,128,144,.3) , rgba(112,128,144,.3) 2px, transparent 2px, transparent 15px);
+  background-position: left, bottom right;
+  background-repeat: no-repeat, repeat repeat;
+  background-size: auto 3rem, auto;
+
+ * tweaking the styles live in the browser on the following MDN page helped me figure out the above background gradient
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/repeating-linear-gradient
+ *
+ * Also here is the stripe generator that was somewhat useful. Sucks that it doesn't provide the css, only generates an image file:
+ * http://www.stripegenerator.com/#Zm9yZT1lZWVlZWU7aD0zMDt3PTQ7cD0xMDtiYWNrMT1mZmZmZmY7YmFjazI9ZmYwMDAwO2d0PTA7ZD0xO3NoYWRvdz0xOw==
+ *
+ * ...and CSS-Tricks page on blockquote styles:
+ * http://www.css-tricks.com/examples/Blockquotes/
+ */
+  
 /* Grid
 ================================================== */
 
