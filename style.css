@@ -23,6 +23,17 @@ body {
   background-color: #7FDBFF;
 }
 
+a {
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: none;
+  color: #16a085;
+}
+
+a:hover {
+  background-color: #08c;
+  color: #ddd;
+}
 
 /* Header
 ================================================== */
@@ -166,14 +177,7 @@ header .tagline {
   font-size: 1.7rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  text-decoration: none;
-  color: #16a085;
   line-height: 1;
-}
-
-#content h2 a:hover {
-  background-color: #08c;
-  color: #ddd;
 }
 
 blockquote {
