@@ -1,6 +1,6 @@
 ephemeralia.github.io
 =====================
-This is really all about the content listed here. It is acknowledged that this content is obtusely organized. I struggle with remembering / keeping track of / documenting / bookmarking / referring-to-later all of the great resources every day brings across browsers and devices.
+This is really all about the content listed here. It is acknowledged that this content is obtusely organized. I struggle with remembering / keeping track of / documenting / bookmarking / referring-to-later all of the great resources every day brings across browsers and devices. That's why this exists.
 
 This page started by viewing the source of Bower.io/search and digging its nice and clever design. Plus I liked how shitforbuildingwebsites.com uses articles in list items.
 
