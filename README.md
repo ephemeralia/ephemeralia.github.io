@@ -6,6 +6,8 @@ This page started by viewing the source of Bower.io/search and digging its nice 
 
 In addition to working with design, this also represents working with GitHub and a custom url. Of all the domains I have lying around, ephemeralia.com was the closest in meaning to listing resources.
 
+_What about the overhead cost of maintaining it?_ My involvement with the community has me working with content management systems. In contrast, this is an outlet to quickly write HTML with @emmetio and publish with `git`.
+
 Main thing is that the content is useful. No doubt lots of it is familiar to you. Probably some of it's not.
 
 Cheers
