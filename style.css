@@ -228,7 +228,7 @@ code {
   color: #ecf0f1;
   background-color: #8e44ad;
   border-radius: .15rem;
-  white-space: nowrap;
+  word-wrap: break-word;
   font-style: normal;
 }
 
