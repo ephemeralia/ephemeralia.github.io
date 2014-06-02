@@ -221,8 +221,10 @@ blockquote {
  * http://www.css-tricks.com/examples/Blockquotes/
  */
 
+pre,
 code {
-  padding: 2px;
+  background-color: #8e44ad;
+  border-radius: .15rem;
   font-family: "PT Mono", monospace;
   font-size: 90%;
   color: #ecf0f1;
@@ -230,6 +232,14 @@ code {
   border-radius: .15rem;
   word-wrap: break-word;
   font-style: normal;
+}
+
+pre {
+  padding: 1rem 1rem 0 1rem;
+}
+
+code {
+  padding: 2px;
 }
 
 #content ol.orderedList {
